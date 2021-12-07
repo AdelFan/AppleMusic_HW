@@ -16,6 +16,8 @@
 		77781974275F5C7500A6DFCD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781973275F5C7500A6DFCD /* Player.swift */; };
 		77781977275F5C9B00A6DFCD /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781976275F5C9B00A6DFCD /* PlayerView.swift */; };
 		77781979275F5CB800A6DFCD /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781978275F5CB800A6DFCD /* MiniPlayer.swift */; };
+		7778197B275F5D7300A6DFCD /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778197A275F5D7300A6DFCD /* RadioModel.swift */; };
+		7778197D275F5DA300A6DFCD /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778197C275F5DA300A6DFCD /* Radio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		77781973275F5C7500A6DFCD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		77781976275F5C9B00A6DFCD /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		77781978275F5CB800A6DFCD /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
+		7778197A275F5D7300A6DFCD /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
+		7778197C275F5DA300A6DFCD /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		7778195F275F589F00A6DFCD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7778197A275F5D7300A6DFCD /* RadioModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 		77781960275F58A500A6DFCD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7778197C275F5DA300A6DFCD /* Radio.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 				77781972275F5BBC00A6DFCD /* MediaModel.swift in Sources */,
 				77781953275F578B00A6DFCD /* ContentView.swift in Sources */,
 				77781951275F578B00A6DFCD /* AppleMusic_HWApp.swift in Sources */,
+				7778197B275F5D7300A6DFCD /* RadioModel.swift in Sources */,
 				77781977275F5C9B00A6DFCD /* PlayerView.swift in Sources */,
+				7778197D275F5DA300A6DFCD /* Radio.swift in Sources */,
 				77781979275F5CB800A6DFCD /* MiniPlayer.swift in Sources */,
 				77781974275F5C7500A6DFCD /* Player.swift in Sources */,
 				77781970275F5BAC00A6DFCD /* MediaView.swift in Sources */,
