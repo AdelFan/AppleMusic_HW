@@ -18,6 +18,10 @@
 		77781979275F5CB800A6DFCD /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781978275F5CB800A6DFCD /* MiniPlayer.swift */; };
 		7778197B275F5D7300A6DFCD /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778197A275F5D7300A6DFCD /* RadioModel.swift */; };
 		7778197D275F5DA300A6DFCD /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778197C275F5DA300A6DFCD /* Radio.swift */; };
+		7778197F275F5E6B00A6DFCD /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778197E275F5E6B00A6DFCD /* SearchModel.swift */; };
+		77781981275F5E9700A6DFCD /* WinterTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781980275F5E9700A6DFCD /* WinterTimeModel.swift */; };
+		77781983275F5EB600A6DFCD /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781982275F5EB600A6DFCD /* Search.swift */; };
+		77781985275F5EDF00A6DFCD /* WinterTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781984275F5EDF00A6DFCD /* WinterTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		77781978275F5CB800A6DFCD /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 		7778197A275F5D7300A6DFCD /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
 		7778197C275F5DA300A6DFCD /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
+		7778197E275F5E6B00A6DFCD /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		77781980275F5E9700A6DFCD /* WinterTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTimeModel.swift; sourceTree = "<group>"; };
+		77781982275F5EB600A6DFCD /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		77781984275F5EDF00A6DFCD /* WinterTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,8 @@
 		77781965275F58BD00A6DFCD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7778197E275F5E6B00A6DFCD /* SearchModel.swift */,
+				77781980275F5E9700A6DFCD /* WinterTimeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +164,8 @@
 		77781966275F58C300A6DFCD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				77781982275F5EB600A6DFCD /* Search.swift */,
+				77781984275F5EDF00A6DFCD /* WinterTimeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,11 +277,15 @@
 				77781972275F5BBC00A6DFCD /* MediaModel.swift in Sources */,
 				77781953275F578B00A6DFCD /* ContentView.swift in Sources */,
 				77781951275F578B00A6DFCD /* AppleMusic_HWApp.swift in Sources */,
+				7778197F275F5E6B00A6DFCD /* SearchModel.swift in Sources */,
+				77781981275F5E9700A6DFCD /* WinterTimeModel.swift in Sources */,
 				7778197B275F5D7300A6DFCD /* RadioModel.swift in Sources */,
 				77781977275F5C9B00A6DFCD /* PlayerView.swift in Sources */,
 				7778197D275F5DA300A6DFCD /* Radio.swift in Sources */,
 				77781979275F5CB800A6DFCD /* MiniPlayer.swift in Sources */,
+				77781983275F5EB600A6DFCD /* Search.swift in Sources */,
 				77781974275F5C7500A6DFCD /* Player.swift in Sources */,
+				77781985275F5EDF00A6DFCD /* WinterTimeView.swift in Sources */,
 				77781970275F5BAC00A6DFCD /* MediaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
