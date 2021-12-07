@@ -51,8 +51,11 @@
 		7778194F275F578B00A6DFCD /* AppleMusic_HW */ = {
 			isa = PBXGroup;
 			children = (
-				77781950275F578B00A6DFCD /* AppleMusic_HWApp.swift */,
-				77781952275F578B00A6DFCD /* ContentView.swift */,
+				77781968275F595400A6DFCD /* Media */,
+				77781967275F58C600A6DFCD /* TabView */,
+				77781964275F58B800A6DFCD /* Search */,
+				77781961275F58AA00A6DFCD /* Player */,
+				7778195E275F589A00A6DFCD /* Radio */,
 				77781954275F578D00A6DFCD /* Assets.xcassets */,
 				77781956275F578D00A6DFCD /* Preview Content */,
 			);
@@ -65,6 +68,107 @@
 				77781957275F578D00A6DFCD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7778195E275F589A00A6DFCD /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				77781960275F58A500A6DFCD /* View */,
+				7778195F275F589F00A6DFCD /* Model */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		7778195F275F589F00A6DFCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77781960275F58A500A6DFCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77781961275F58AA00A6DFCD /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				77781963275F58B400A6DFCD /* Model */,
+				77781962275F58AF00A6DFCD /* View */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		77781962275F58AF00A6DFCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77781963275F58B400A6DFCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77781964275F58B800A6DFCD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				77781966275F58C300A6DFCD /* View */,
+				77781965275F58BD00A6DFCD /* Model */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		77781965275F58BD00A6DFCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77781966275F58C300A6DFCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77781967275F58C600A6DFCD /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				77781950275F578B00A6DFCD /* AppleMusic_HWApp.swift */,
+				77781952275F578B00A6DFCD /* ContentView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		77781968275F595400A6DFCD /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				7778196A275F595F00A6DFCD /* View */,
+				77781969275F595A00A6DFCD /* Model */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		77781969275F595A00A6DFCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7778196A275F595F00A6DFCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
