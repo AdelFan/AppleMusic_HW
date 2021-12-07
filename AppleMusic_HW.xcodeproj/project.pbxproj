@@ -11,6 +11,8 @@
 		77781953275F578B00A6DFCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781952275F578B00A6DFCD /* ContentView.swift */; };
 		77781955275F578D00A6DFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77781954275F578D00A6DFCD /* Assets.xcassets */; };
 		77781958275F578D00A6DFCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77781957275F578D00A6DFCD /* Preview Assets.xcassets */; };
+		77781970275F5BAC00A6DFCD /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778196F275F5BAC00A6DFCD /* MediaView.swift */; };
+		77781972275F5BBC00A6DFCD /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781971275F5BBC00A6DFCD /* MediaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		77781952275F578B00A6DFCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		77781954275F578D00A6DFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77781957275F578D00A6DFCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7778196F275F5BAC00A6DFCD /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		77781971275F5BBC00A6DFCD /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 		77781969275F595A00A6DFCD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				77781971275F5BBC00A6DFCD /* MediaModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 		7778196A275F595F00A6DFCD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7778196F275F5BAC00A6DFCD /* MediaView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,8 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77781972275F5BBC00A6DFCD /* MediaModel.swift in Sources */,
 				77781953275F578B00A6DFCD /* ContentView.swift in Sources */,
 				77781951275F578B00A6DFCD /* AppleMusic_HWApp.swift in Sources */,
+				77781970275F5BAC00A6DFCD /* MediaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
