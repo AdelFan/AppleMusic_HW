@@ -22,6 +22,7 @@
 		77781981275F5E9700A6DFCD /* WinterTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781980275F5E9700A6DFCD /* WinterTimeModel.swift */; };
 		77781983275F5EB600A6DFCD /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781982275F5EB600A6DFCD /* Search.swift */; };
 		77781985275F5EDF00A6DFCD /* WinterTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781984275F5EDF00A6DFCD /* WinterTimeView.swift */; };
+		77781987275F5FB500A6DFCD /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77781986275F5FB500A6DFCD /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		77781980275F5E9700A6DFCD /* WinterTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTimeModel.swift; sourceTree = "<group>"; };
 		77781982275F5EB600A6DFCD /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		77781984275F5EDF00A6DFCD /* WinterTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTimeView.swift; sourceTree = "<group>"; };
+		77781986275F5FB500A6DFCD /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			children = (
 				77781950275F578B00A6DFCD /* AppleMusic_HWApp.swift */,
 				77781952275F578B00A6DFCD /* ContentView.swift */,
+				77781986275F5FB500A6DFCD /* MainScreen.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				7778197B275F5D7300A6DFCD /* RadioModel.swift in Sources */,
 				77781977275F5C9B00A6DFCD /* PlayerView.swift in Sources */,
 				7778197D275F5DA300A6DFCD /* Radio.swift in Sources */,
+				77781987275F5FB500A6DFCD /* MainScreen.swift in Sources */,
 				77781979275F5CB800A6DFCD /* MiniPlayer.swift in Sources */,
 				77781983275F5EB600A6DFCD /* Search.swift in Sources */,
 				77781974275F5C7500A6DFCD /* Player.swift in Sources */,
