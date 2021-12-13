@@ -46,7 +46,7 @@ struct WinterTimeView: View {
                                     Image(item.image)
                                         .resizable()
                                         .frame(width: 350, height: 250, alignment: .center)
-                                        .cornerRadius(15)
+                                        .cornerRadius(10)
                                         .padding(.leading, 12)
                                         .padding(.trailing, 0)
                                         .shadow(radius: 5)

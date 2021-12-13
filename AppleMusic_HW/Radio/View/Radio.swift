@@ -41,7 +41,7 @@ struct Radio: View {
                                 Image(item.image)
                                     .resizable()
                                     .frame(width: 350, height: 250, alignment: .center)
-                                    .cornerRadius(15)
+                                    .cornerRadius(10)
                                     .padding(.leading, 12)
                                     .padding(.trailing, 0)
                                     .shadow(radius: 5)
@@ -66,7 +66,7 @@ struct Radio: View {
                             Image(item.image)
                                 .resizable()
                                 .frame(width: 110, height: 110)
-                                .cornerRadius(9)
+                                .cornerRadius(4)
                                 .padding(.leading, 15)
                                 .padding(.trailing, 15)
                                 .shadow(radius: 3)
@@ -79,6 +79,7 @@ struct Radio: View {
                             }
                         }
                         Divider()
+                            .padding(.leading, 130)
                     }
                 }
             }
